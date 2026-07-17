@@ -28,7 +28,7 @@ npm run lint    # análisis estático con oxlint
 - Pestañas para vistas **Diario / Semanal / Mensual**.
 - Crear, editar y eliminar registros.
 - Los registros se agrupan por día, semana o mes según la vista.
-- Modo claro / oscuro con preferencia recordada.
+- Modo oscuro por defecto, con opción de cambiar a claro (preferencia recordada).
 - Todo se guarda localmente; no se envía ningún dato a ningún servidor.
 
 ## Despliegue
