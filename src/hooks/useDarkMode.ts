@@ -6,7 +6,7 @@ function getInitial(): boolean {
   const stored = localStorage.getItem(STORAGE_KEY)
   if (stored === 'dark') return true
   if (stored === 'light') return false
-  return window.matchMedia('(prefers-color-scheme: dark)').matches
+  return true
 }
 
 export function useDarkMode() {
